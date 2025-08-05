@@ -10,11 +10,12 @@ cd OpenAIShareGathering
 pip install -r requirements.txt
  ```
 
-After downloading the repository, you can run these commands below in an IDE of your choice.
-
 > OpenAI Share links as JSON:
 
 [View data file here](OpenAIShareGathering/data/openai_share_data.json)
+
+
+After downloading the repository, you can run these command below in an IDE of your choice.
 
 To save individual conversations within OpenAI Share links as JSON:
 
