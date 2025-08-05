@@ -10,7 +10,7 @@ cd OpenAIShareGathering
 pip install -r requirements.txt
  ```
 
-After saving the file, you can run these commands below in an IDE of your choice.
+After downloading the repository, you can run these commands below in an IDE of your choice.
 
 > OpenAI Share links as JSON:
 
