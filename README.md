@@ -22,3 +22,7 @@ To save individual conversations within OpenAI Share links as JSON:
 SaveShareData()
 ```
 
+
+It's that easy, friends!
+
+^-^/
