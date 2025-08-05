@@ -12,12 +12,9 @@ pip install -r requirements.txt
 
 After saving the file, you can run these commands below in an IDE of your choice.
 
-To save OpenAI Share links as JSON:
+OpenAI Share links as JSON:
 
-```
-wbmac = WaybackMachineIntelligence()
-wbmac.GetIntelligence()
-```
+[View data file here](data/openai_share_data.json)
 
 To save individual conversations within OpenAI Share links as JSON:
 
