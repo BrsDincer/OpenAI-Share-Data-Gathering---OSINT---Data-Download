@@ -1,13 +1,11 @@
 from utils.initial_classes import ICLASS,IPROCESS
 from utils.initial_messages import INFORMATIONMESSAGE
 from utils.initial_directories import DIRECTORIES
-from typing import Union,Type,Optional
-from datetime import datetime
+from typing import Type
 from bs4 import BeautifulSoup
-from langchain_community.document_loaders import SeleniumURLLoader
 import os,requests,json
 
-
+os.makedirs(DIRECTORIES.sourcePath,exist_ok=True)
 
 class WaybackMachineIntelligence(object):
     def __init__(self)->Type[ICLASS]:
@@ -48,3 +46,4 @@ class WaybackMachineIntelligence(object):
                 except:
                     pass
         
+
