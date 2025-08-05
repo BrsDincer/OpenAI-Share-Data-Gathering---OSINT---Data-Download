@@ -14,7 +14,7 @@ After saving the file, you can run these commands below in an IDE of your choice
 
 OpenAI Share links as JSON:
 
-[View data file here](data/openai_share_data.json)
+[View data file here](OpenAIShareGathering/data/openai_share_data.json)
 
 To save individual conversations within OpenAI Share links as JSON:
 
