@@ -2,7 +2,9 @@ from utils.initial_classes import IPROCESS
 from utils.initial_directories import DIRECTORIES
 from source.getShareData import ShareDataCollection
 from typing import Type
-import json
+import json,os
+
+os.makedirs(DIRECTORIES.sourcePath,exist_ok=True)
 
 def SaveShareData()-> Type[IPROCESS]:
     shareEngine = ShareDataCollection()
@@ -15,5 +17,6 @@ def SaveShareData()-> Type[IPROCESS]:
                 shareEngine.GetData(url=url)
             else:
                 pass
+
 
 
