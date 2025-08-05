@@ -8,6 +8,7 @@ from bs4 import BeautifulSoup
 import time,os,json
 
 os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
+os.makedirs(DIRECTORIES.cachePath,exist_ok=True)
 
 class ShareDataCollection(object):
     def __init__(self)->Type[ICLASS]:
@@ -69,6 +70,7 @@ class ShareDataCollection(object):
                 pass
         except:
             pass
+
 
 
 
